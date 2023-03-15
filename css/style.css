@@ -1,0 +1,73 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3.75rem;
+}
+
+#app {
+    max-width: 31.25rem;
+    margin: 0 auto;
+}
+
+/* add thing to do */
+#add {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+#inner-text, #button {
+    border: none;
+    background-color: white;
+}
+
+#inner-text {
+    flex-grow: 1;
+    border: solid .0625rem lightslategray;
+    border-right: none;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+}
+#button {
+    padding: 0.625rem 1.25rem;   
+    border-left: 0.625rem;
+    border: solid .0625rem lightslategray;
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+}
+
+/* add thing to do */
+/* to do list */
+ul {
+    border-radius: 0.625rem;
+    border: solid .0625rem lightslategray;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.text {
+    flex-grow: 1;
+    padding: 0.625rem;
+
+}
+
+.icon {
+    border-left: solid 0.0625rem;
+    padding: 0.625rem 1.25rem;   
+    text-align: center;
+}
+
+/* to do list */
