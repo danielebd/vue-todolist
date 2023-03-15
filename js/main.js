@@ -49,9 +49,11 @@ createApp({
             this.toDo.splice(elementDelete, 1)
         },
         addTodo(){
-            this.toDo.push({text: this.newTodo, done: false})
-            console.log('newTodo')
-            console.log(this.toDo);
+            if(this.newTodo !== ''){
+                this.toDo.push({text: this.newTodo, done: false})
+                this.newTodo=''
+            }
+            
         }
     }
 
