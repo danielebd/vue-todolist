@@ -21,8 +21,8 @@
                     <button id="button"><i class="fa-solid fa-plus"></i></button>
                 </div>
                 <ul>
-                    <li>
-                        <div class="text">ok</div>
+                    <li v-for="(key,index) in toDo">
+                        <div class="text">{{ index }} {{ key.text }}</div>
                         <i class="fa-solid fa-xmark icon"></i>
                     </li>
                     

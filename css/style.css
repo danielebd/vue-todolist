@@ -70,4 +70,8 @@ li {
     text-align: center;
 }
 
+.border-bottom{
+    border-bottom: solid 0.0625rem;
+}
+
 /* to do list */
