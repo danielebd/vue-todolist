@@ -52,6 +52,7 @@ createApp({
             if(this.newTodo !== ''){
                 this.toDo.push({text: this.newTodo, done: false})
                 this.newTodo=''
+                console.log('ok');
             }
             
         }
