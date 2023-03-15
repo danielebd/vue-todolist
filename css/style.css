@@ -73,5 +73,9 @@ li {
 .border-bottom{
     border-bottom: solid 0.0625rem;
 }
+.text-bar {
+    text-decoration: line-through;
+    color: gray;
+}
 
 /* to do list */

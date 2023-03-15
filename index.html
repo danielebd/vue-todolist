@@ -21,7 +21,7 @@
                     <button id="button"><i class="fa-solid fa-plus"></i></button>
                 </div>
                 <ul>
-                    <li v-for="(key,index) in toDo">
+                    <li v-for="(key,index) in toDo" @click="barClick(index)"  :class="bar(index)">
                         <div class="text">{{ index }} {{ key.text }}</div>
                         <i class="fa-solid fa-xmark icon"></i>
                     </li>
