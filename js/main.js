@@ -44,6 +44,9 @@ createApp({
             else if (this.toDo[i].done === true){
                 return 'text-bar'
             }
+        },
+        remove(elementDelete){
+            this.toDo.splice(elementDelete, 1)
         }
     }
 

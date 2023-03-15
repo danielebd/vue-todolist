@@ -7,5 +7,7 @@ MILESTONE 1
 stampare ogni elemento della chiave text nel DOM tramite comando v-for così da dupplicare il li con il contenuto inserito
 creare una classe in css textBar che andrà a modificare il testo barrandolo 
 inserire nel li text un evento click con una funzione(clickBar) che andreamo a creare su js
-creare funzione clickBar in js che al click vada a modificare l'oggetto done in true se done is false e return e se is true return classeList.toogle('textBar')
+creare funzione clickBar in js che al click vada a swicciare il valore booleano dell'oggetto da false a true e viceversa
+creare unaltra funzione che se il done è false non da niente, se true aggiunge la classe 'text-bar'
 MILESTONE 2
+HTML inserire un enento click che risponde ad una funzione in js che elimina con splice l'elemento dall'array principale
