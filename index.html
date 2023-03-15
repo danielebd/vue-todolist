@@ -17,11 +17,11 @@
         <main>
             <div>
                 <div id="add">
-                    <input type="text" @keyup.enter="addTodo()" id="inner-text" v-model="newTodo" placeholder="   aggiungi alla lista">
+                    <input type="text" @keyup.enter="addTodo()" id="inner-text" v-model="newTodo" placeholder="aggiungi alla lista">
                     <button id="button" @click="addTodo()"><i class="fa-solid fa-plus"></i></button>
                 </div>
                 <ul>
-                    <li v-for="(key,index) in toDo">
+                    <li v-for="(key,index) in toDo" id="list-item" :class="addClass()">
                         <div class="text" :class="bar(index)" @click="barClick(index)">{{ index }} {{ key.text }}</div>
                         <i class="fa-solid fa-xmark icon" @click="remove(index)"></i>
                     </li>

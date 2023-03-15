@@ -15,6 +15,7 @@ h1 {
 }
 
 /* add thing to do */
+
 #add {
     display: flex;
     justify-content: space-between;
@@ -33,6 +34,11 @@ h1 {
     border-right: none;
     border-top-left-radius: 0.625rem;
     border-bottom-left-radius: 0.625rem;
+    box-sizing: border-box;
+    padding-left: 0.625rem;
+}
+#inner-text:focus {
+    outline: none;
 }
 #button {
     padding: 0.625rem 1.25rem;   
@@ -43,7 +49,9 @@ h1 {
 }
 
 /* add thing to do */
+
 /* to do list */
+
 ul {
     border-radius: 0.625rem;
     border: solid .0625rem lightslategray;

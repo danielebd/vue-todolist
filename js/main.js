@@ -54,7 +54,12 @@ createApp({
                 this.newTodo=''
                 console.log('ok');
             }
-            
+        },
+        addClass(){
+            for(let i = 0; i < this.toDo.lenght -1; i++){
+                 document.getElementById('list-item').classList.add('border-bottom');
+                
+            }
         }
     }
 
