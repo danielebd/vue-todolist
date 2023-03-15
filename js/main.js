@@ -5,7 +5,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            activeCounter: 0,
+            newTodo: '',
             toDo: [
                 {
                     text: 'fare la spesa',
@@ -47,6 +47,11 @@ createApp({
         },
         remove(elementDelete){
             this.toDo.splice(elementDelete, 1)
+        },
+        addTodo(){
+            this.toDo.push({text: this.newTodo, done: false})
+            console.log('newTodo')
+            console.log(this.toDo);
         }
     }
 

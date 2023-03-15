@@ -10,4 +10,6 @@ inserire nel li text un evento click con una funzione(clickBar) che andreamo a c
 creare funzione clickBar in js che al click vada a swicciare il valore booleano dell'oggetto da false a true e viceversa
 creare unaltra funzione che se il done è false non da niente, se true aggiunge la classe 'text-bar'
 MILESTONE 2
-HTML inserire un enento click che risponde ad una funzione in js che elimina con splice l'elemento dall'array principale
+HTML inserire un evento click che risponde ad una funzione in js che elimina con splice l'elemento dall'array principale
+MILESTONE 3
+inserire in html button + un evento click che risponde ad una funzione in js che inserisce un nuovo oggetto nell'array. il valore inserito è quello preso dall'input type text tramite v-model che cambia una variabile vuota in data 

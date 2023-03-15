@@ -17,8 +17,8 @@
         <main>
             <div>
                 <div id="add">
-                    <input type="text" id="inner-text">
-                    <button id="button"><i class="fa-solid fa-plus"></i></button>
+                    <input type="text" id="inner-text" v-model="newTodo" placeholder="   aggiungi alla lista">
+                    <button id="button" @click="addTodo()"><i class="fa-solid fa-plus"></i></button>
                 </div>
                 <ul>
                     <li v-for="(key,index) in toDo">
